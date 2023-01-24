@@ -14,7 +14,7 @@ function tipSelect(element){
     for(var i=0; i<=6; i++){
     document.getElementById("tipSelect").children[i].style.backgroundColor="white";
     }
-    element.style.backgroundColor="#C4BEBD";
+    element.style.backgroundColor="#9C60FF";
     var current_tip = element.value;
     console.log("current_tip",current_tip);
     tip = current_tip;
