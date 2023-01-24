@@ -5,7 +5,7 @@ var resetCount = 0;
 function billAmount(){
     var target = document.getElementById("input-id-1");
     var value = parseFloat(target.value);
-    target.style.backgroundColor="#C4BEBD ";
+    target.style.backgroundColor="#9C60FF";
     amount=value;
     console.log(amount);
 }
