@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="javascript.js"></script>
+    <div class="flexbox-container">
+        <div class="flexbox-items color-1">
+            <span>Bill</span><br>
+            <div class="flexbox-item-1">
+                <img height="20px" width="10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/407px-Indian_Rupee_symbol.svg.png?20200509225215">
+                <input oninput="billAmount()" id="input-id-1" type="number" min="0" class="input-1" placeholder="0">
+            </div><br>
+            <p>&nbsp;&nbsp;Tip percent (%)</p>
+            <div class="flexbox-item-2" id="tipSelect">
+                <input onclick="tipSelect(this)" type="button" class="buttons button-1" value="5">    
+                <input onclick="tipSelect(this)" type="button" class="buttons button-2" value="15">
+                <input onclick="tipSelect(this)" type="button" class="buttons button-3" value="25"><br> 
+                <input onclick="tipSelect(this)" type="button" class="buttons button-4" value="35"> 
+                <input onclick="tipSelect(this)" type="button" class="buttons button-5" value="50">
+                <input onclick="tipSelect(this)" type="button" class="buttons button-6" value="75"> 
+            </div><br>
+            <span>Person</span><br>
+            <div class="flexbox-item-3">
+                <div class="flexbox-item-3-1">
+                    <img height="40px" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png">
+                    <input onclick="setPeople(this)" type="button" class="small-buttons" value="+">
+                    <input id="peopleCount" type="button" class="small-buttons" value="0">
+                    <input onclick="setPeople(this)" type="button" class="small-buttons" value="-">
+                </div>
+            </div>
+        </div>
+        <div class="flexbox-items color-2">
+            <div class="flexbox-item-4">
+                <p  id="charges_tip">₹0.0</p>
+                <p  id="total-amount">Total Tip</p>
+                <p  id="per-person">/ person</p>
+            </div>
+            <div class="flexbox-item-5">
+                <p id="charges_bill">₹0.0</p>
+                <p id="total-amount">Total Amount</p>
+                <p id="per-person">/ person</p>
+            </div>
+            <div class="flexbox-item-6"  id="class_add">
+                <input id="generate" onclick="chargesCalc()" type="button" value="generate">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

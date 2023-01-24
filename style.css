@@ -1,0 +1,91 @@
+body{
+    background-color:  #D6BCFF;
+}
+.flexbox-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: flex-start;
+    background-color:white;
+    width:1000px;
+    border-radius:21px;
+    margin-top:10%;
+    margin-left:25%;
+}
+.input-1{
+    height:39px;
+    width:350px;
+    margin:0px 0px 0px 5px;
+    text-align:right;
+    border:0px solid black;
+}
+.input-2{
+    height:30px;
+    width:300px;
+    margin:10px 0 0 5px;
+    text-align:right;
+}
+span{
+    margin-left:10px;
+}
+.flexbox-items{
+    width:450px;
+    height:400px;
+    margin : 10px;
+    background-color: white;
+    border-radius:21px;
+}
+.buttons{
+    height:50px;
+    width: 60px;
+    margin-left:10px;
+    margin-top:10px;
+    border:1px solid black;
+    background-color:#9C60FF;
+}
+.small-buttons{
+    height:38px;
+    width:38px;
+    float:right;
+}
+
+.flexbox-item-1{
+    margin-left:8px;
+    border:1px solid black;
+    width:377px;
+}
+.flexbox-item-3-1{
+    border:1px solid black;
+    height:38px;
+    width:300px;
+    margin-left:10px;
+}
+#per-person{
+    margin-top:0px;
+    margin-left:8px;
+}
+#total-amount{
+    font-size:30px;
+    margin-left:8px;
+    font-weight: bold;
+}
+#charges_tip,#charges_bill{
+    float:right;
+    margin-right:10px;
+}
+#generate,#reset{
+    width:45%;
+    height:40px;
+    text-align:center;
+    margin-left:8px;
+    margin-top:10%;
+}
+.color-1{
+    margin-top:40px;
+    margin-left: 30px;
+}
+.color-2{
+    border: 1px solid black;
+    background-color: #9C60FF;
+}
